@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parcours JavaScript Logique</title>
+</head>
+<body>
+
+    
+
+
+
+
+
+    
+
+
+
+</body>
+<!-- Logique -->
+<!-- Langues -->
+    <script>
+        var esp = "espagnol", fr = "français", ang = "anglais";
+        votreLangue = prompt("Votre langue SVP?");
+        if (votreLangue == esp){
+            document.write("Hola a todo el mundo!")
+        } else if (votreLangue == fr){
+                document.write("Salut tout le monde!")
+        } else if(votreLangue == ang){
+                document.write("Hello world!") 
+        }
+    </script>
+<!-- Affichage des scores -->
+    <script>
+        let score
+        score = prompt("Inserez le résultat :");
+        if (score <= 50){
+            alert("Vous avez le rang C")
+        } else if (score <= 90){
+            alert("Vous avez le rang B")
+        } else {
+            alert("Vous avez le rang C")
+        }
+    </script>
+<!-- Mettre au pluriel -->
+<script>
+        unite = prompt("Un animal de vos préférence:");
+        quantite = prompt("Combien vous-en posedez?");
+                    
+        if(quantite>1){
+            document.write("<p>Il y a " + quantite + " " + unite +"s </p>");
+        }else{
+            document.write("<p>Il y a " + quantite + " " + unite + "</p>");
+        }
+    </script>
+
+
+</html>
