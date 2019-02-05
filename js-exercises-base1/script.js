@@ -13,5 +13,9 @@
 // )
 
 //exercise 3
-prenom = prompt("Saisissez votre nom SVP");
-alert("Bonjour "+prenom);
+// prenom = prompt("Saisissez votre nom SVP");
+// alert("Bonjour "+prenom);
+
+
+
+
